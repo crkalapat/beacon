@@ -250,7 +250,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Seeed Studio:XIAO-nRF52840-DIP"
+		(symbol "Seeed Studio:XIAO-RP2040-DIP"
 			(pin_names
 				(offset 1.016)
 			)
@@ -258,23 +258,23 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -21.082 21.336 0)
+				(at -20.828 21.336 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "XIAO-nRF52840-DIP"
-				(at -11.684 -21.082 0)
+			(property "Value" "XIAO-RP2040-DIP"
+				(at -12.7 -21.082 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "MCU_SEEED_XIAO_Series:XIAO-nRF52840-DIP"
-				(at 0 -23.368 0)
+			(property "Footprint" "MCU_SEEED_XIAO_Series:XIAO-RP2040-DIP"
+				(at -1.016 -23.114 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -300,7 +300,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "XIAO-nRF52840-DIP_1_1"
+			(symbol "XIAO-RP2040-DIP_1_1"
 				(rectangle
 					(start -21.59 20.32)
 					(end 21.59 -19.05)
@@ -879,7 +879,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Seeed Studio:XIAO-nRF52840-DIP")
+		(lib_id "Seeed Studio:XIAO-RP2040-DIP")
 		(at 129.54 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -887,7 +887,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9d4d12a7-ea18-48f4-9755-f967b70d7082")
+		(uuid "92c7c7c0-fbf4-4dac-827d-8a095e64eae0")
 		(property "Reference" "U1"
 			(at 129.54 71.12 0)
 			(effects
@@ -896,7 +896,7 @@
 				)
 			)
 		)
-		(property "Value" "XIAO-nRF52840-DIP"
+		(property "Value" "XIAO-RP2040-DIP"
 			(at 129.54 73.66 0)
 			(effects
 				(font
@@ -904,8 +904,8 @@
 				)
 			)
 		)
-		(property "Footprint" "MCU_SEEED_XIAO_Series:XIAO-nRF52840-DIP"
-			(at 129.54 123.698 0)
+		(property "Footprint" "MCU_SEEED_XIAO_Series:XIAO-RP2040-DIP"
+			(at 128.524 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -931,47 +931,47 @@
 				(hide yes)
 			)
 		)
-		(pin "8"
-			(uuid "012e27e0-43f2-4d0c-bfb7-628d66e25cbe")
-		)
-		(pin "6"
-			(uuid "98ac0df8-eb95-47e6-b91d-fe088601a423")
-		)
-		(pin "5"
-			(uuid "429d1880-9e70-4b9d-ae2c-a5225f63d6cc")
-		)
-		(pin "4"
-			(uuid "48f63f23-7d80-40af-aae9-7f2115649157")
-		)
-		(pin "9"
-			(uuid "809db900-ce57-48a8-94d3-8da1abd7006a")
-		)
-		(pin "10"
-			(uuid "46f01cf0-d391-4dc2-a356-780478c3047a")
-		)
-		(pin "3"
-			(uuid "12598911-b8e0-495a-ba6f-c644e3ca45c0")
-		)
-		(pin "7"
-			(uuid "504f182c-d6a5-49a9-b0b2-9f0bff73c4f9")
-		)
-		(pin "14"
-			(uuid "b630df83-f032-45ba-922c-fa95f626ba4f")
-		)
-		(pin "13"
-			(uuid "51d7789f-425e-4951-b1b2-cf5f53cf799e")
-		)
-		(pin "12"
-			(uuid "52ceff57-fd55-442c-8480-d849a88b1425")
+		(pin "1"
+			(uuid "920adedf-8dac-4943-b695-e116eff610a9")
 		)
 		(pin "2"
-			(uuid "f234e387-82bc-49b4-b65b-fbfe8b415edc")
+			(uuid "c1bcf49a-2eba-4916-96e2-bb15a7150b30")
 		)
-		(pin "1"
-			(uuid "f94e0d8a-504c-40f3-9cfb-cac352619ebd")
+		(pin "4"
+			(uuid "5b548db6-2b03-40bc-aa46-5f69452cfa6a")
+		)
+		(pin "3"
+			(uuid "dd82cd2a-0efb-4ced-9236-7c955b4967d0")
+		)
+		(pin "7"
+			(uuid "5d1d01b7-bdc9-4b48-b537-92a17c09f94a")
+		)
+		(pin "14"
+			(uuid "e8d2cdb0-091b-4c40-a9a2-55a2016e68b2")
+		)
+		(pin "5"
+			(uuid "6a960bd3-bb54-4864-b60c-b9822b69dffa")
 		)
 		(pin "11"
-			(uuid "932bc308-b50d-481e-8b28-390f7c02f835")
+			(uuid "5a21e573-42fa-47a6-8425-d159ef49b302")
+		)
+		(pin "6"
+			(uuid "31086c0d-9703-4761-ac86-7bd9771e3e2d")
+		)
+		(pin "10"
+			(uuid "68979e63-f081-4bf2-963a-88230639e967")
+		)
+		(pin "13"
+			(uuid "ac40ab45-2ab4-4c1d-a589-18fee3fbd217")
+		)
+		(pin "12"
+			(uuid "f29d1e39-028d-414a-8584-1ece88542226")
+		)
+		(pin "9"
+			(uuid "1c8adbda-1504-484a-926d-324519e60286")
+		)
+		(pin "8"
+			(uuid "a7d1192d-83e3-411f-9cce-3a6981a87d55")
 		)
 		(instances
 			(project ""
